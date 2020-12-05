@@ -1,7 +1,7 @@
 <?php 
 session_start();
 if($_SESSION['auth']) {
-	echo 'hi';
+	echo 'content';
 }
 else {
 	echo 'You are not authorized!';
